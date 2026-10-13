@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAV</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img style="margin-left: 50px;" src="img/logo_mini.png" alt="logo">
+        </div>
+        <div class="menu">
+            <h1>Tutoriais</h1>
+            <h1>Cursos</h1>
+            <h1>Exercicios</h1>
+            <h1>Certificados</h1>
+        </div>
+        <div class="menu">
+            <h1 style="margin-right: 50px;" class="singin" id="singincabec">sing in</h1>
+        </div>
+    </header>
+
+    <div class="caixaflexse">
+        <div class="caixa" class="flexc">
+            <div>
+                <h1>Aprenda do zero</h1>
+                <h3 style="color: #01724c;">Com profissionais da área</h3>
+                <div class="flexc">
+
+                    <div>
+                        <p>
+                            <span class="check">&#10004</span>
+                            <span>desafios</span>
+                        </p>
+                        <p>
+                            <span class="check">&#10004</span>
+                            <span>aulas interativas</span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span class="check">&#10004</span>
+                            <span>hackatons</span>
+                        </p>
+                        <p>
+                            <span class="check">&#10004</span>
+                            <span>rastreio de progresso</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="caixa2">
+            <h1>Continue aprendendo</h1>
+            <p>
+                <span>mais de</span>
+                <span style="color: #01724c;">67.677</span>
+                <span>alunos</span>
+            </p>
+            <br><br>
+            <div>
+                <h1 class="singin" id="singin2">sing in</h1>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="caixa" id="caixa4">
+        <div id="caixa3">
+            <h4 style="margin-top: 20px;">Todas as linguagens</h4>
+            <div>
+                <div style="margin-top: 10px;">
+                    <div class="mini-caixa">
+                        <span class="caixa-linguagem">
+                            <img src="img/HTML5_logo_and_wordmark.svg.webp" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/css.png" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/JavaScript-logo.png" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/sql.png" alt="HTML">
+                        </span>
+                    </div>
+                    <div class="mini-caixa">
+                        <span class="caixa-linguagem">
+                            <img src="img/Python-logo-notext.svg.webp" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/java.webp" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/C.png" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/c++.svg" alt="HTML">
+                        </span>
+                    </div>
+                    <div class="mini-caixa">
+                        <span class="caixa-linguagem">
+                            <img src="img/csharp.png" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/php.png" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/react.png" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/mysql.png" alt="HTML">
+                        </span>
+                    </div>
+                    <div class="mini-caixa">
+                        <span class="caixa-linguagem">
+                            <img src="img/Microsoft_Office_Excel_(2019–2025).svg.webp" alt="HTML">
+                        </span>
+                        <span class="caixa-linguagem">
+                            <img src="img/dsa.png" alt="HTML">
+                        </span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fundoLogin"></div>
+
+    <div id="janelaLogin">
+        <h2>Login do GAV</h2>
+        <form id="formLogin">
+            <label for="emailLogin">E-mail</label>
+            <input type="email" id="emailLogin" placeholder="Digite seu e-mail" required>
+
+            <label for="senhaLogin">Senha</label>
+            <input type="password" id="senhaLogin" placeholder="Digite sua senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <button id="fecharJanela" type="button">Fechar</button>
+        <p id="mensagemLogin"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

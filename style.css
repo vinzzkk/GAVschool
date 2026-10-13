@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "Conthrax";
+    src: url(fonts/Conthrax-SemiBold.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    height: auto;
+}
+
+.flexc{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(41, 38, 38);
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+.logo img {
+    height: auto;
+    width: 35px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu h1 {
+    font-size: 15px;
+    font-family: "Conthrax", sans-serif;
+}
+
+#singincabec{
+    width: 100px;
+    height: 20px;
+}
+#singincabec:hover{
+    background-color: #024b32;
+    transition: background-color 0.1s;
+}
+
+.flexse{
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+
+.caixaflexse{
+    gap: 15px;
+    height: 400px;
+    margin-top: 8px;
+    background-color: rgb(41, 38, 38);
+    border-radius: 10px;
+    color: white;
+    font-family: "Conthrax", sans-serif;
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+
+.caixa{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.check{
+    color: #01724c;
+}
+
+#caixa2{
+    background-color: rgba(12, 11, 11, 0.534);
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.singin{
+    background-color: #01724c;
+    border-radius: 30px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.singin:hover{
+    background-color: #024b32;
+    transition: background-color 0.1s;
+}
+
+#caixa3{
+    text-align: center;
+    color: white;
+    font-family: "Conthrax", sans-serif;
+}
+
+#caixa4{
+    background-color: rgb(41, 38, 38);
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 1000px;
+}
+
+.mini-caixa{
+    display: flex;
+    gap: 20px;
+    height: 150px;
+}
+
+.caixa-linguagem{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 125px;
+    width: 150px;
+    display: inline-block;
+}
+
+.caixa-linguagem:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.mini-caixa img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+#janelaLogin {
+    display: none;
+    background-color: #292626;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+
+#fecharJanela {
+    background-color: #01724c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#fundoLogin {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+#formLogin input {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: #1c1c1c;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#formLogin button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #01724c;
+    color: white;
+    cursor: pointer;
+}
+
+#formLogin button:hover,
+#fecharJanela:hover {
+    background-color: #024b32;
+}
